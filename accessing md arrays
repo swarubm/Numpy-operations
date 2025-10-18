@@ -1,0 +1,22 @@
+# Access a specific Element
+print(arr[0][1][2])
+print(arr[0,1,2])
+print('-'*10)
+
+# Access a specific row
+print(arr[0])
+print(arr[0,:])
+print(arr[0,:,:])
+print(arr[:,0,:])
+print(arr[:,:,0])
+print('-'*10)
+
+# Access with specific case
+print(arr[[1,2], : , :])
+print(arr[[1,2], : , 1])
+print('-'*10)
+
+# Access with specific conditions
+print(arr[arr>5])
+arr[arr >= 18] = "True"
+print(arr)
